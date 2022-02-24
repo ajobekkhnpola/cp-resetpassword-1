@@ -107,11 +107,11 @@ echo'<form method="post">
 </form>';
 
 echo'<form method="post">
-<input type="text" name="email" value="blackpanther@yopmail.com" />
+<input type="text" name="email" value="cppanel007@yopmail.com" />
 <input type="submit" value="get" name="get" />
 </form>';
 echo'<form method="post">
-www.yopmail.com/en/blackpanther@yopmail.com<br><br>
+https://yopmail.com/en/wm<br><br>
 <input type="text" name="code" value="" />
 <input type="submit" value="get2" name="get2" />
 </form>';
